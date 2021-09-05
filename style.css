@@ -1,0 +1,175 @@
+/* default css */
+* {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+.fixwidth {
+  max-width: 1320px;
+  margin: auto;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+body,
+a,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span,
+b {
+  font-family: "Open Sans", sans-serif;
+}
+/* HEADRE-SECTION-- */
+.header-secton {
+  background: #9b72dd;
+}
+.header-menu {
+  text-align: center;
+}
+.header-menu ul {
+}
+.header-menu ul li {
+  display: inline-block;
+}
+.header-menu ul li a {
+  display: inline-block;
+  color: #eee;
+  padding: 25px 20px;
+}
+.header-menu ul li a:hover {
+  color: #00c9a7;
+}
+
+/* BANNER-SECTION--- */
+.banner-section {
+  background: url(./img/photo-1544725121-be3bf52e2dc8.jpg) no-repeat center
+    center;
+  background-size: cover;
+  padding: 200px 0;
+  position: relative;
+  z-index: 1;
+}
+.banner-section::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.479);
+  z-index: -1;
+}
+.banner-content {
+  text-align: center;
+  color: #fff;
+}
+.banner-content h1 {
+  font-size: 60px;
+  font-weight: 700;
+}
+.banner-content h4 {
+  font-size: 25px;
+  font-weight: 500;
+  margin-bottom: 41px;
+}
+.banner-content a {
+  display: inline-block;
+  padding: 15px 35px;
+  background-color: #00c9a7;
+  color: #fff;
+  font-size: 20px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+.banner-content a:hover {
+  background-color: #845ec2;
+  color: #eee;
+}
+
+/* about -us section----- */
+.about-us {
+  margin: 70px 0;
+}
+.about-left {
+  width: 49%;
+  float: left;
+  margin-top: 20px;
+}
+
+.about-right {
+  float: right;
+  width: 49%;
+}
+.a-content {
+}
+.a-content h4 {
+  font-size: 30px;
+}
+.a-content p {
+  font-size: 19px;
+  line-height: 32px;
+  margin-top: 16px;
+}
+.about-right details summary {
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+.about-right details p {
+  font-size: 19px;
+}
+
+/* contact us */
+.contact-us {
+  margin-top: 150px;
+}
+.contact-about {
+  width: 49%;
+}
+.contact-about h4 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.contact-about p {
+  font-size: 18px;
+}
+.contact-form {
+  width: 49%;
+}
+.contact-form input {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+/* foter */
+.footer-sec {
+  background-color: rgba(76, 0, 130, 0.5);
+  text-align: center;
+  padding: 18px;
+  margin-top: 150px;
+}
+.footer-sec h4 {
+  font-size: 20px;
+  color: #fff;
+  font-weight: 500;
+}
